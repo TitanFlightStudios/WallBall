@@ -41,46 +41,19 @@ public class BallHitWallScript : MonoBehaviour
 
     }
 
-    public void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
-
-        Debug.Log("Collided");
 
         if (collision.gameObject.tag == "Ball")
         {
-            //Increase score multiplier
-            //ScoringScript.IncreaseScoreMultiplier(0.25f);
-
-            //Note hit for WallsHitNum
-            //ScoringScript.WallsHitNum += 0.25f;
-
-            //CatchBallScript.fSumOfCatchesAndWallHitMult += 0.25f;
 
             //The spot where the ball hit the floor
             LocationToDisplayWallHitMult = collision.contacts[0].point;
-            //Debug.Log("Contact point: " + collision.contacts[0].point);
-
-            //Increase the y value so that it does not intersect with the floor
-            //LocationToDisplayWallHitMult = new Vector3(LocationToDisplayWallHitMult.x, LocationToDisplayWallHitMult.y, LocationToDisplayWallHitMult.z);
 
             StartCoroutine(FadeWallHitMult());
 
-            //if (LocationToDisplayWallHitMult.x > -7.0f && LocationToDisplayWallHitMult.x < -4.8f)
-            //{
-            //    LocationToDisplayWallHitMult.x = -4.5f;
-            //}
-
-            ////Debug.Log("Location of Ball Hit Floor: " + LocationToDisplayWallHitMult.x);
-
-            //if (LocationToDisplayWallHitMult.x < 9.0f && LocationToDisplayWallHitMult.x > 6.0f)
-            //{
-            //    LocationToDisplayWallHitMult.x = 6.0f;
-            //}
-
             //Display the UI Game Object showing + 0.25 X Game Object
             BallHitWallMultGameObject.transform.position = LocationToDisplayWallHitMult;
-
-            Debug.Log("Hit Main Wall");
 
         }
     }
