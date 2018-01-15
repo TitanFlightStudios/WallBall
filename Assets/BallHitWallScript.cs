@@ -52,6 +52,18 @@ public class BallHitWallScript : MonoBehaviour
 
             StartCoroutine(FadeWallHitMult());
 
+            if (LocationToDisplayWallHitMult.x > -7.0f && LocationToDisplayWallHitMult.x < -4.8f)
+            {
+                LocationToDisplayWallHitMult.x = -4.5f;
+            }
+
+            //Debug.Log("Location of Ball Hit Floor: " + LocationToDisplayWallHitMult.x);
+
+            if (LocationToDisplayWallHitMult.x < 9.0f && LocationToDisplayWallHitMult.x > 6.0f)
+            {
+                LocationToDisplayWallHitMult.x = 6.0f;
+            }
+
             //Display the UI Game Object showing + 0.25 X Game Object
             BallHitWallMultGameObject.transform.position = LocationToDisplayWallHitMult;
 
