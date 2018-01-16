@@ -221,11 +221,12 @@ public class ScoringScript : MonoBehaviour
         FinalScoreAfterMultText.text = "0";
         //NumCatchesMultText.text = "0";
         //CatchBallScript.CatchesNum = 0;
-        //fCatchesMult = 0.0f;
+        fCatchesMult = 0.0f;
         WallsHitNum = 0.0f;
         WallsHitText.text = "0";
         fCurrentCatchesMult.text = "0";
         CatchBallScript.fSumOfCatchesAndWallHitMult = 0;
+        CatchBallScript.CatchesNum = 0;
 
         //Reset whether ball hit right wall after spawning 
         HitSideWallRightScript.didBallHitSideWallRight = false;

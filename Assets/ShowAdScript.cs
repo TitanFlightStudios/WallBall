@@ -15,6 +15,9 @@ public class ShowAdScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+        Chartboost.cacheRewardedVideo(CBLocation.MainMenu);
+        Chartboost.cacheInterstitial(CBLocation.Default);
 		
 	}
 
@@ -40,6 +43,11 @@ public class ShowAdScript : MonoBehaviour {
             }
         }
 
+    }
+
+    public void ShowRewardVideo()
+    {
+        Chartboost.showRewardedVideo(CBLocation.MainMenu);
     }
 
     // Update is called once per frame

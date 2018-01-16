@@ -947,6 +947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8645440fc2e8945888a6f0d99cec51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numMissedCatches: 0
+  numActivateAd: 0
 --- !u!114 &369752320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -987,7 +989,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 369752319}
-        m_MethodName: ShowAdFunction
+        m_MethodName: ShowRewardVideo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3501,6 +3503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8645440fc2e8945888a6f0d99cec51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numMissedCatches: 0
+  numActivateAd: 0
 --- !u!114 &1535024439
 MonoBehaviour:
   m_ObjectHideFlags: 0
