@@ -14,6 +14,7 @@ public class CatchBallScript : MonoBehaviour {
     public HitSideWallRightScript HitSideWallRightScript;
     public HitSideWallLeftScript HitSideWallLeftScript;
     public SpawnMovingObjectScript SpawnMovingObjectScript;
+    public ShowAdScript ShowAdScript;
 
 
 
@@ -47,6 +48,9 @@ public class CatchBallScript : MonoBehaviour {
 
     public Light MainRoomLightSettings;
 
+    //how wall rotates
+    public float fRotation;
+
     // Use this for initialization
     void Start () {
         CatchesNum = 0.0f;
@@ -65,12 +69,12 @@ public class CatchBallScript : MonoBehaviour {
 
         //fSumOfCatchesAndWallHitMult = ScoringScript.fCatchesMult + ScoringScript.fballSpeedMult;
 
-        ScoringScript.NumCatchesMultText.text = ScoringScript.fCatchesMult.ToString();
+        //ScoringScript.NumCatchesMultText.text = ScoringScript.fCatchesMult.ToString();
 
 
     }
 
-    IEnumerator WaitFunction(float SecondsToWait)
+    public IEnumerator WaitFunction(float SecondsToWait)
     {
         if(Input.GetMouseButtonDown(0))
         {
@@ -119,10 +123,10 @@ public class CatchBallScript : MonoBehaviour {
 
                         MainRoomLightSettings.color = Color.blue;
                     }
-                    if (CatchesNum == 11)
+                    if (CatchesNum == 10)
                     {
                         RotateWallScript.isWallRotating = true;
-                        StartCoroutine(RotateWallScript.RotateWall());
+                        StartCoroutine(RotateWallScript.RotateWall(fRotation));
 
                         MainRoomLightSettings.color = Color.red;
                     }
@@ -148,7 +152,31 @@ public class CatchBallScript : MonoBehaviour {
                     {
                         //do  nothing;
                     }
-                    
+
+                    if (CatchesNum == 20)
+                    {
+                        RotateWallScript.isWallRotating = true;
+                        StartCoroutine(RotateWallScript.RotateWall(-fRotation * 2));
+
+                        MainRoomLightSettings.color = Color.red;
+                    }
+
+                    if (CatchesNum == 25)
+                    {
+                        RotateWallScript.isWallRotating = true;
+                        StartCoroutine(RotateWallScript.RotateWall(fRotation * 2));
+
+                        MainRoomLightSettings.color = Color.red;
+                    }
+
+                    if (CatchesNum == 30)
+                    {
+                        RotateWallScript.isWallRotating = true;
+                        StartCoroutine(RotateWallScript.RotateWall(-fRotation * 2));
+
+                        MainRoomLightSettings.color = Color.red;
+                    }
+
 
                     //Reset ball being spawned after catching
                     KillBallScript.DestroyObject(SpawnBallScript.SpawnedBall);
@@ -167,6 +195,13 @@ public class CatchBallScript : MonoBehaviour {
                 }
                 else
                 {
+
+
+                    //number of missed catches
+                    ShowAdScript.numMissedCatches += 1;
+
+                    ShowAdScript.ShowAdFunction();
+
                     //Debug.Log("You missed the ball.");
 
                     //Fading number each time the ball is caught
@@ -192,6 +227,7 @@ public class CatchBallScript : MonoBehaviour {
                     //Destroy the ball
                     KillBallScript.DestroyObject(SpawnBallScript.SpawnedBall);
 
+                    
 
 
                     //Reset Red Cube spawning counter

@@ -252,7 +252,6 @@ GameObject:
   - component: {fileID: 8436097}
   - component: {fileID: 8436096}
   - component: {fileID: 8436095}
-  - component: {fileID: 8436098}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -344,27 +343,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &8436098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 8436093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &8436099
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -387,7 +365,6 @@ GameObject:
   - component: {fileID: 35385438}
   - component: {fileID: 35385437}
   - component: {fileID: 35385436}
-  - component: {fileID: 35385441}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -499,27 +476,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 35385434}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &35385441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 35385434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &44260546
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +489,6 @@ GameObject:
   - component: {fileID: 44260550}
   - component: {fileID: 44260549}
   - component: {fileID: 44260548}
-  - component: {fileID: 44260551}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -626,27 +581,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &44260551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 44260546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &44260552
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -668,7 +602,6 @@ GameObject:
   - component: {fileID: 52223594}
   - component: {fileID: 52223593}
   - component: {fileID: 52223592}
-  - component: {fileID: 52223596}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -762,27 +695,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 52223590}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &52223596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 52223590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &55509200
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,10 +770,8 @@ GameObject:
   m_Component:
   - component: {fileID: 76106570}
   - component: {fileID: 76106574}
-  - component: {fileID: 76106573}
   - component: {fileID: 76106572}
   - component: {fileID: 76106571}
-  - component: {fileID: 76106575}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -933,19 +843,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &76106573
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65475672681366900, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 76106569}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &76106574
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -954,27 +851,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76106569}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &76106575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 76106569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &77551937
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,10 +861,8 @@ GameObject:
   m_Component:
   - component: {fileID: 77551938}
   - component: {fileID: 77551942}
-  - component: {fileID: 77551941}
   - component: {fileID: 77551940}
   - component: {fileID: 77551939}
-  - component: {fileID: 77551943}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -1060,19 +934,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &77551941
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65288069983939064, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77551937}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &77551942
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1081,27 +942,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 77551937}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &77551943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77551937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &83984980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,10 +952,8 @@ GameObject:
   m_Component:
   - component: {fileID: 83984981}
   - component: {fileID: 83984985}
-  - component: {fileID: 83984984}
   - component: {fileID: 83984983}
   - component: {fileID: 83984982}
-  - component: {fileID: 83984986}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -1187,19 +1025,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &83984984
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65223434431360424, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 83984980}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &83984985
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1208,27 +1033,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 83984980}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &83984986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 83984980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &99618142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1046,6 @@ GameObject:
   - component: {fileID: 99618146}
   - component: {fileID: 99618145}
   - component: {fileID: 99618144}
-  - component: {fileID: 99618148}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -1335,27 +1138,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 99618142}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &99618148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99618142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &114675683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,10 +1148,8 @@ GameObject:
   m_Component:
   - component: {fileID: 114675684}
   - component: {fileID: 114675688}
-  - component: {fileID: 114675687}
   - component: {fileID: 114675686}
   - component: {fileID: 114675685}
-  - component: {fileID: 114675689}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -1441,19 +1221,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &114675687
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65067830325110270, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 114675683}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &114675688
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1462,27 +1229,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 114675683}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114675689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 114675683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &120211471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,7 +1356,6 @@ GameObject:
   - component: {fileID: 122343144}
   - component: {fileID: 122343143}
   - component: {fileID: 122343142}
-  - component: {fileID: 122343145}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -1701,27 +1446,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &122343145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 122343140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &122343146
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1740,12 +1464,9 @@ GameObject:
   m_Component:
   - component: {fileID: 124606139}
   - component: {fileID: 124606144}
-  - component: {fileID: 124606143}
   - component: {fileID: 124606142}
   - component: {fileID: 124606141}
   - component: {fileID: 124606140}
-  - component: {fileID: 124606145}
-  - component: {fileID: 124606146}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -1837,19 +1558,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &124606143
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65797786055850952, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 124606138}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &124606144
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1858,41 +1566,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 124606138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &124606145
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 124606138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &124606146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 124606138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &140034664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1619,6 @@ GameObject:
   - component: {fileID: 153589885}
   - component: {fileID: 153589884}
   - component: {fileID: 153589883}
-  - component: {fileID: 153589887}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -2039,27 +1711,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153589881}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &153589887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 153589881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &162119831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,7 +1723,6 @@ GameObject:
   - component: {fileID: 162119836}
   - component: {fileID: 162119834}
   - component: {fileID: 162119833}
-  - component: {fileID: 162119835}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -2143,27 +1793,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &162119835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 162119831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &162119836
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2256,10 +1885,8 @@ GameObject:
   m_Component:
   - component: {fileID: 168655527}
   - component: {fileID: 168655531}
-  - component: {fileID: 168655530}
   - component: {fileID: 168655529}
   - component: {fileID: 168655528}
-  - component: {fileID: 168655532}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -2331,19 +1958,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &168655530
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65924607684716790, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 168655526}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &168655531
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2352,27 +1966,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 168655526}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &168655532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 168655526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &170090086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,7 +1979,6 @@ GameObject:
   - component: {fileID: 170090090}
   - component: {fileID: 170090089}
   - component: {fileID: 170090088}
-  - component: {fileID: 170090091}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -2478,27 +2070,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &170090091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 170090086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &170090092
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2517,11 +2088,9 @@ GameObject:
   m_Component:
   - component: {fileID: 193127910}
   - component: {fileID: 193127915}
-  - component: {fileID: 193127914}
   - component: {fileID: 193127913}
   - component: {fileID: 193127912}
   - component: {fileID: 193127911}
-  - component: {fileID: 193127916}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -2612,19 +2181,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &193127914
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65033674351850102, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 193127909}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &193127915
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2633,27 +2189,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 193127909}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &193127916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 193127909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &198810601
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,10 +2199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 198810602}
   - component: {fileID: 198810606}
-  - component: {fileID: 198810605}
   - component: {fileID: 198810604}
   - component: {fileID: 198810603}
-  - component: {fileID: 198810607}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -2739,19 +2272,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &198810605
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65105879059175626, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 198810601}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &198810606
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2760,27 +2280,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 198810601}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &198810607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 198810601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &208385242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,10 +2290,8 @@ GameObject:
   m_Component:
   - component: {fileID: 208385243}
   - component: {fileID: 208385247}
-  - component: {fileID: 208385246}
   - component: {fileID: 208385245}
   - component: {fileID: 208385244}
-  - component: {fileID: 208385248}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -2867,19 +2364,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &208385246
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65385527074107492, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208385242}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &208385247
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2888,27 +2372,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208385242}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &208385248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 208385242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &213450494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,10 +2422,8 @@ GameObject:
   m_Component:
   - component: {fileID: 256342200}
   - component: {fileID: 256342204}
-  - component: {fileID: 256342203}
   - component: {fileID: 256342202}
   - component: {fileID: 256342201}
-  - component: {fileID: 256342205}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -3034,19 +2495,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &256342203
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65320929144694310, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 256342199}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &256342204
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3055,27 +2503,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256342199}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &256342205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 256342199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &283678369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,7 +2515,6 @@ GameObject:
   - component: {fileID: 283678373}
   - component: {fileID: 283678372}
   - component: {fileID: 283678371}
-  - component: {fileID: 283678374}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -3168,27 +2594,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 283678369}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &283678374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 283678369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &284181242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,10 +2604,8 @@ GameObject:
   m_Component:
   - component: {fileID: 284181243}
   - component: {fileID: 284181247}
-  - component: {fileID: 284181246}
   - component: {fileID: 284181245}
   - component: {fileID: 284181244}
-  - component: {fileID: 284181248}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -3274,19 +2677,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &284181246
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65461363356254056, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 284181242}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &284181247
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3295,27 +2685,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 284181242}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &284181248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 284181242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &302957110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,10 +2695,8 @@ GameObject:
   m_Component:
   - component: {fileID: 302957111}
   - component: {fileID: 302957115}
-  - component: {fileID: 302957114}
   - component: {fileID: 302957113}
   - component: {fileID: 302957112}
-  - component: {fileID: 302957116}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -3401,19 +2768,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &302957114
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65359738813397722, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 302957110}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &302957115
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3422,27 +2776,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 302957110}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &302957116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 302957110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &308192731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +2867,7 @@ GameObject:
   - component: {fileID: 310039942}
   - component: {fileID: 310039941}
   - component: {fileID: 310039940}
+  - component: {fileID: 310039945}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3563,7 +2897,7 @@ MonoBehaviour:
   HitSideWallLeftScript: {fileID: 1914883555}
   SpawnMovingObjectScript: {fileID: 695473926}
   AssignBlockColorScript: {fileID: 1187268759}
-  fAmountToIncreaseScorePerCatch: 50
+  fAmountToIncreaseScorePerCatch: 100
   fCurrentScore: 0
   fFinalScore: 0
   MissedBallPanel: {fileID: 882995594}
@@ -3674,6 +3008,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.7, y: 8.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &310039945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310039939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8645440fc2e8945888a6f0d99cec51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numMissedCatches: 0
+  numActivateAd: 0
 --- !u!1 &312105043
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,10 +3109,8 @@ GameObject:
   m_Component:
   - component: {fileID: 315288248}
   - component: {fileID: 315288252}
-  - component: {fileID: 315288251}
   - component: {fileID: 315288250}
   - component: {fileID: 315288249}
-  - component: {fileID: 315288253}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -3837,19 +3182,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &315288251
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65942346020194986, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 315288247}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &315288252
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3858,27 +3190,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 315288247}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &315288253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 315288247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &348576187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,10 +3240,8 @@ GameObject:
   m_Component:
   - component: {fileID: 358265555}
   - component: {fileID: 358265559}
-  - component: {fileID: 358265558}
   - component: {fileID: 358265557}
   - component: {fileID: 358265556}
-  - component: {fileID: 358265560}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -4004,19 +3313,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &358265558
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65177227197778366, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358265554}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &358265559
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4025,27 +3321,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 358265554}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &358265560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 358265554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &367776360
 GameObject:
   m_ObjectHideFlags: 0
@@ -4056,10 +3331,8 @@ GameObject:
   m_Component:
   - component: {fileID: 367776361}
   - component: {fileID: 367776365}
-  - component: {fileID: 367776364}
   - component: {fileID: 367776363}
   - component: {fileID: 367776362}
-  - component: {fileID: 367776366}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -4131,19 +3404,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &367776364
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65020623541180790, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 367776360}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &367776365
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4152,27 +3412,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 367776360}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &367776366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 367776360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &369114659
 GameObject:
   m_ObjectHideFlags: 0
@@ -4186,7 +3425,6 @@ GameObject:
   - component: {fileID: 369114663}
   - component: {fileID: 369114662}
   - component: {fileID: 369114661}
-  - component: {fileID: 369114665}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -4279,27 +3517,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 369114659}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &369114665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 369114659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &386562299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4400,10 +3617,8 @@ GameObject:
   m_Component:
   - component: {fileID: 395949680}
   - component: {fileID: 395949684}
-  - component: {fileID: 395949683}
   - component: {fileID: 395949682}
   - component: {fileID: 395949681}
-  - component: {fileID: 395949685}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -4475,19 +3690,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &395949683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65103213996581410, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 395949679}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &395949684
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4496,27 +3698,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 395949679}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &395949685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 395949679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &408923316
 GameObject:
   m_ObjectHideFlags: 0
@@ -4529,7 +3710,6 @@ GameObject:
   - component: {fileID: 408923320}
   - component: {fileID: 408923319}
   - component: {fileID: 408923318}
-  - component: {fileID: 408923321}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -4609,27 +3789,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 408923316}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &408923321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 408923316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &419947162
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,10 +3799,8 @@ GameObject:
   m_Component:
   - component: {fileID: 419947163}
   - component: {fileID: 419947167}
-  - component: {fileID: 419947166}
   - component: {fileID: 419947165}
   - component: {fileID: 419947164}
-  - component: {fileID: 419947168}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -4715,19 +3872,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &419947166
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65391750347980374, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419947162}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &419947167
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4736,27 +3880,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 419947162}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &419947168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 419947162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &469075384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4767,10 +3890,8 @@ GameObject:
   m_Component:
   - component: {fileID: 469075385}
   - component: {fileID: 469075389}
-  - component: {fileID: 469075388}
   - component: {fileID: 469075387}
   - component: {fileID: 469075386}
-  - component: {fileID: 469075390}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -4842,19 +3963,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &469075388
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65022230268352098, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 469075384}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &469075389
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4863,27 +3971,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469075384}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &469075390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 469075384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &486784895
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,7 +4122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: XXX
+  m_Text: 0
 --- !u!1001 &573691669
 Prefab:
   m_ObjectHideFlags: 0
@@ -5111,10 +4198,8 @@ GameObject:
   m_Component:
   - component: {fileID: 582777457}
   - component: {fileID: 582777461}
-  - component: {fileID: 582777460}
   - component: {fileID: 582777459}
   - component: {fileID: 582777458}
-  - component: {fileID: 582777462}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -5186,19 +4271,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &582777460
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65804873158932858, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 582777456}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &582777461
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5207,27 +4279,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 582777456}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &582777462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 582777456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &595888586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5240,7 +4291,6 @@ GameObject:
   - component: {fileID: 595888591}
   - component: {fileID: 595888588}
   - component: {fileID: 595888589}
-  - component: {fileID: 595888590}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -5313,27 +4363,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &595888590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 595888586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &595888591
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5434,7 +4463,6 @@ GameObject:
   - component: {fileID: 607376146}
   - component: {fileID: 607376145}
   - component: {fileID: 607376144}
-  - component: {fileID: 607376149}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -5546,27 +4574,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 607376142}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &607376149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 607376142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &631596030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,10 +4584,8 @@ GameObject:
   m_Component:
   - component: {fileID: 631596031}
   - component: {fileID: 631596035}
-  - component: {fileID: 631596034}
   - component: {fileID: 631596033}
   - component: {fileID: 631596032}
-  - component: {fileID: 631596036}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -5652,19 +4657,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &631596034
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65378661445983638, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 631596030}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &631596035
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5673,27 +4665,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631596030}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &631596036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 631596030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &635641546
 GameObject:
   m_ObjectHideFlags: 0
@@ -6013,10 +4984,8 @@ GameObject:
   m_Component:
   - component: {fileID: 665360463}
   - component: {fileID: 665360467}
-  - component: {fileID: 665360466}
   - component: {fileID: 665360465}
   - component: {fileID: 665360464}
-  - component: {fileID: 665360468}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -6089,19 +5058,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &665360466
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65177735822196926, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 665360462}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &665360467
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6110,27 +5066,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665360462}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &665360468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 665360462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &695473926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6150,11 +5085,11 @@ MonoBehaviour:
   ScoringScript: {fileID: 310039940}
   ObjectToSpawn: {fileID: 1654212140709530, guid: 2745579dddaaee4418051b44d23d42a8,
     type: 2}
-  ArrayOfWhenToSpawnRedCubes: 0c0000000e00000010000000120000001400000016000000180000001a000000
+  ArrayOfWhenToSpawnRedCubes: 0b0000000c0000000d0000000e0000000f0000001000000011000000120000001a0000001b0000001c0000001d0000001e0000001f0000002000000021000000
   AmountOfForceToApplyX: 1
   AmountOfForceToApplyY: 1
   AmountOfForceToApplyZ: 0
-  ArrayOfWhenToRemoveWallPieces: 060000000700000008000000090000000a0000000b0000000d0000000f00000011000000130000001500000017000000190000001b0000001d0000001f000000210000002200000023000000240000002500000026000000270000002800000029000000
+  ArrayOfWhenToRemoveWallPieces: 030000000400000005000000060000000700000008000000090000000a0000001300000014000000150000001600000017000000180000001900000022000000230000002400000025000000260000002700000028000000290000002a0000002b000000
   ObjectSpawnPositionObjects:
   - {fileID: 1286544802}
   - {fileID: 1496431262}
@@ -6183,10 +5118,8 @@ GameObject:
   m_Component:
   - component: {fileID: 698136023}
   - component: {fileID: 698136027}
-  - component: {fileID: 698136026}
   - component: {fileID: 698136025}
   - component: {fileID: 698136024}
-  - component: {fileID: 698136028}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -6258,19 +5191,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &698136026
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65535340992341648, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 698136022}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &698136027
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6279,27 +5199,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698136022}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &698136028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 698136022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &709585258
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,7 +5277,6 @@ GameObject:
   - component: {fileID: 711812930}
   - component: {fileID: 711812929}
   - component: {fileID: 711812928}
-  - component: {fileID: 711812931}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -6469,27 +5367,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &711812931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 711812926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &711812932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6511,7 +5388,6 @@ GameObject:
   - component: {fileID: 723888614}
   - component: {fileID: 723888613}
   - component: {fileID: 723888612}
-  - component: {fileID: 723888616}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -6604,27 +5480,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723888610}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &723888616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 723888610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &738471646
 GameObject:
   m_ObjectHideFlags: 0
@@ -6678,7 +5533,6 @@ GameObject:
   - component: {fileID: 741766911}
   - component: {fileID: 741766910}
   - component: {fileID: 741766909}
-  - component: {fileID: 741766912}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -6769,27 +5623,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &741766912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 741766907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &741766913
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6811,7 +5644,6 @@ GameObject:
   - component: {fileID: 792503916}
   - component: {fileID: 792503915}
   - component: {fileID: 792503914}
-  - component: {fileID: 792503917}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -6903,27 +5735,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &792503917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792503912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &792503918
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6942,10 +5753,8 @@ GameObject:
   m_Component:
   - component: {fileID: 792969768}
   - component: {fileID: 792969772}
-  - component: {fileID: 792969771}
   - component: {fileID: 792969770}
   - component: {fileID: 792969769}
-  - component: {fileID: 792969773}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -7017,19 +5826,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &792969771
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65250942092211470, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792969767}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &792969772
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7038,27 +5834,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 792969767}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &792969773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 792969767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &795543652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7073,7 +5848,6 @@ GameObject:
   - component: {fileID: 795543656}
   - component: {fileID: 795543655}
   - component: {fileID: 795543654}
-  - component: {fileID: 795543659}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -7186,27 +5960,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 795543652}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &795543659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 795543652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &796134316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7246,10 +5999,8 @@ GameObject:
   m_Component:
   - component: {fileID: 796225089}
   - component: {fileID: 796225093}
-  - component: {fileID: 796225092}
   - component: {fileID: 796225091}
   - component: {fileID: 796225090}
-  - component: {fileID: 796225094}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -7321,19 +6072,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &796225092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65568698646561840, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 796225088}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &796225093
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7342,27 +6080,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 796225088}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &796225094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 796225088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &804327054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7373,10 +6090,8 @@ GameObject:
   m_Component:
   - component: {fileID: 804327055}
   - component: {fileID: 804327059}
-  - component: {fileID: 804327058}
   - component: {fileID: 804327057}
   - component: {fileID: 804327056}
-  - component: {fileID: 804327060}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -7448,19 +6163,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &804327058
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65230649003980978, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 804327054}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &804327059
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7469,27 +6171,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 804327054}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &804327060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 804327054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &805283538
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,7 +6184,6 @@ GameObject:
   - component: {fileID: 805283542}
   - component: {fileID: 805283541}
   - component: {fileID: 805283540}
-  - component: {fileID: 805283544}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -7596,27 +6276,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 805283538}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &805283544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 805283538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &817586028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7670,7 +6329,6 @@ GameObject:
   - component: {fileID: 821675690}
   - component: {fileID: 821675688}
   - component: {fileID: 821675689}
-  - component: {fileID: 821675691}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -7761,27 +6419,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &821675691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 821675686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &821675692
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7946,7 +6583,6 @@ GameObject:
   - component: {fileID: 826033278}
   - component: {fileID: 826033277}
   - component: {fileID: 826033276}
-  - component: {fileID: 826033280}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -8039,27 +6675,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 826033274}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &826033280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 826033274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &827196683
 GameObject:
   m_ObjectHideFlags: 0
@@ -8070,10 +6685,8 @@ GameObject:
   m_Component:
   - component: {fileID: 827196684}
   - component: {fileID: 827196688}
-  - component: {fileID: 827196687}
   - component: {fileID: 827196686}
   - component: {fileID: 827196685}
-  - component: {fileID: 827196689}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -8145,19 +6758,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &827196687
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65590456266973610, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 827196683}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &827196688
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8166,27 +6766,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 827196683}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &827196689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 827196683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &859350579
 GameObject:
   m_ObjectHideFlags: 0
@@ -8213,7 +6792,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 859350579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -211, z: 0}
+  m_LocalPosition: {x: 0, y: -166.3, z: 0}
   m_LocalScale: {x: 1.0001955, y: 1.0001955, z: 1.0001955}
   m_Children:
   - {fileID: 1796633470}
@@ -8222,7 +6801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000019751, y: -211}
+  m_AnchoredPosition: {x: -0.00000019751, y: -166.3}
   m_SizeDelta: {x: 171.2, y: 22.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &859350581
@@ -8279,7 +6858,6 @@ GameObject:
   - component: {fileID: 860107702}
   - component: {fileID: 860107701}
   - component: {fileID: 860107700}
-  - component: {fileID: 860107703}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -8371,27 +6949,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &860107703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860107698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &860107704
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8413,7 +6970,6 @@ GameObject:
   - component: {fileID: 868539340}
   - component: {fileID: 868539339}
   - component: {fileID: 868539338}
-  - component: {fileID: 868539342}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -8506,27 +7062,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 868539336}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &868539342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 868539336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &869433801
 GameObject:
   m_ObjectHideFlags: 0
@@ -8775,7 +7310,6 @@ GameObject:
   - component: {fileID: 905137882}
   - component: {fileID: 905137880}
   - component: {fileID: 905137879}
-  - component: {fileID: 905137881}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -8847,27 +7381,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &905137881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 905137877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &905137882
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8888,7 +7401,6 @@ GameObject:
   - component: {fileID: 937535775}
   - component: {fileID: 937535773}
   - component: {fileID: 937535772}
-  - component: {fileID: 937535774}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -8960,27 +7472,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &937535774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 937535770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &937535775
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8999,10 +7490,8 @@ GameObject:
   m_Component:
   - component: {fileID: 964788512}
   - component: {fileID: 964788516}
-  - component: {fileID: 964788515}
   - component: {fileID: 964788514}
   - component: {fileID: 964788513}
-  - component: {fileID: 964788517}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -9074,19 +7563,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &964788515
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65768851623336602, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 964788511}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &964788516
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9095,27 +7571,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 964788511}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &964788517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 964788511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &973913411
 GameObject:
   m_ObjectHideFlags: 0
@@ -9126,11 +7581,9 @@ GameObject:
   m_Component:
   - component: {fileID: 973913412}
   - component: {fileID: 973913417}
-  - component: {fileID: 973913416}
   - component: {fileID: 973913415}
   - component: {fileID: 973913414}
   - component: {fileID: 973913413}
-  - component: {fileID: 973913418}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -9222,19 +7675,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &973913416
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65036224155398800, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 973913411}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &973913417
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9243,27 +7683,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 973913411}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &973913418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 973913411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &986950868
 GameObject:
   m_ObjectHideFlags: 0
@@ -9440,7 +7859,6 @@ GameObject:
   - component: {fileID: 1019439491}
   - component: {fileID: 1019439490}
   - component: {fileID: 1019439489}
-  - component: {fileID: 1019439493}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -9533,27 +7951,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1019439487}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1019439493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1019439487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1031947260
 GameObject:
   m_ObjectHideFlags: 0
@@ -9642,10 +8039,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1040726018}
   - component: {fileID: 1040726022}
-  - component: {fileID: 1040726021}
   - component: {fileID: 1040726020}
   - component: {fileID: 1040726019}
-  - component: {fileID: 1040726023}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -9718,19 +8113,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1040726021
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65337747154410398, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040726017}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1040726022
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9739,27 +8121,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1040726017}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1040726023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040726017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1048974721
 GameObject:
   m_ObjectHideFlags: 0
@@ -9770,10 +8131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1048974722}
   - component: {fileID: 1048974726}
-  - component: {fileID: 1048974725}
   - component: {fileID: 1048974724}
   - component: {fileID: 1048974723}
-  - component: {fileID: 1048974727}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -9845,19 +8204,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1048974725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65124885537743022, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1048974721}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1048974726
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9866,27 +8212,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048974721}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1048974727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1048974721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1074880408
 GameObject:
   m_ObjectHideFlags: 0
@@ -9900,7 +8225,6 @@ GameObject:
   - component: {fileID: 1074880412}
   - component: {fileID: 1074880411}
   - component: {fileID: 1074880410}
-  - component: {fileID: 1074880413}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -9991,27 +8315,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1074880413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1074880408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1074880414
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10030,10 +8333,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1079888739}
   - component: {fileID: 1079888743}
-  - component: {fileID: 1079888742}
   - component: {fileID: 1079888741}
   - component: {fileID: 1079888740}
-  - component: {fileID: 1079888744}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -10105,19 +8406,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1079888742
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65938028220495004, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1079888738}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1079888743
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10126,27 +8414,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079888738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1079888744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1079888738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1080475620
 GameObject:
   m_ObjectHideFlags: 0
@@ -10159,7 +8426,6 @@ GameObject:
   - component: {fileID: 1080475625}
   - component: {fileID: 1080475623}
   - component: {fileID: 1080475622}
-  - component: {fileID: 1080475624}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -10232,27 +8498,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1080475624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1080475620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1080475625
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10271,11 +8516,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1087308139}
   - component: {fileID: 1087308143}
-  - component: {fileID: 1087308142}
   - component: {fileID: 1087308141}
   - component: {fileID: 1087308140}
-  - component: {fileID: 1087308144}
-  - component: {fileID: 1087308145}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -10327,7 +8569,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6fcded0319ee9514aadbe4c72f1586e2, type: 2}
+  - {fileID: 0}
   - {fileID: 2100000, guid: 243d7a3afd94cb54dbb375d95c7fdfd5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -10348,19 +8590,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1087308142
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65855112416989494, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087308138}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1087308143
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10369,41 +8598,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1087308138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &1087308144
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087308138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1087308145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1087308138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1088277513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10483,10 +8677,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1094619422}
   - component: {fileID: 1094619426}
-  - component: {fileID: 1094619425}
   - component: {fileID: 1094619424}
   - component: {fileID: 1094619423}
-  - component: {fileID: 1094619427}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -10558,19 +8750,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1094619425
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65364837979192800, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1094619421}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1094619426
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10579,27 +8758,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1094619421}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1094619427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1094619421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1105923508
 GameObject:
   m_ObjectHideFlags: 0
@@ -10694,7 +8852,6 @@ GameObject:
   - component: {fileID: 1116335542}
   - component: {fileID: 1116335541}
   - component: {fileID: 1116335546}
-  - component: {fileID: 1116335547}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -10821,27 +8978,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1116335547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1116335539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1130498280
 GameObject:
   m_ObjectHideFlags: 0
@@ -10852,10 +8988,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1130498281}
   - component: {fileID: 1130498285}
-  - component: {fileID: 1130498284}
   - component: {fileID: 1130498283}
   - component: {fileID: 1130498282}
-  - component: {fileID: 1130498286}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -10927,19 +9061,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1130498284
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65996040317415960, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1130498280}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1130498285
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10948,27 +9069,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1130498280}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1130498286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1130498280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1142670087
 GameObject:
   m_ObjectHideFlags: 0
@@ -11017,10 +9117,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1145269174}
   - component: {fileID: 1145269178}
-  - component: {fileID: 1145269177}
   - component: {fileID: 1145269176}
   - component: {fileID: 1145269175}
-  - component: {fileID: 1145269179}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -11092,19 +9190,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1145269177
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65121231034544938, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1145269173}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1145269178
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11113,27 +9198,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145269173}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1145269179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1145269173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1145799858
 GameObject:
   m_ObjectHideFlags: 0
@@ -11206,10 +9270,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1148679001}
   - component: {fileID: 1148679005}
-  - component: {fileID: 1148679004}
   - component: {fileID: 1148679003}
   - component: {fileID: 1148679002}
-  - component: {fileID: 1148679006}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -11281,19 +9343,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1148679004
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65854672196310206, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148679000}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1148679005
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11302,27 +9351,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1148679000}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1148679006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148679000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1156563794
 GameObject:
   m_ObjectHideFlags: 0
@@ -11333,10 +9361,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1156563795}
   - component: {fileID: 1156563799}
-  - component: {fileID: 1156563798}
   - component: {fileID: 1156563797}
   - component: {fileID: 1156563796}
-  - component: {fileID: 1156563800}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -11408,19 +9434,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1156563798
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65165889144659096, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1156563794}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1156563799
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11429,27 +9442,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156563794}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1156563800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1156563794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1157822969
 GameObject:
   m_ObjectHideFlags: 0
@@ -11460,11 +9452,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1157822970}
   - component: {fileID: 1157822975}
-  - component: {fileID: 1157822974}
   - component: {fileID: 1157822973}
   - component: {fileID: 1157822972}
   - component: {fileID: 1157822971}
-  - component: {fileID: 1157822976}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -11555,19 +9545,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1157822974
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65353484068649190, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157822969}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1157822975
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11576,27 +9553,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157822969}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1157822976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157822969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1187268757
 GameObject:
   m_ObjectHideFlags: 0
@@ -11903,10 +9859,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1252784363}
   - component: {fileID: 1252784367}
-  - component: {fileID: 1252784366}
   - component: {fileID: 1252784365}
   - component: {fileID: 1252784364}
-  - component: {fileID: 1252784368}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -11978,19 +9932,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1252784366
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65026804251877420, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1252784362}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1252784367
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11999,27 +9940,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252784362}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1252784368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1252784362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1255099622
 GameObject:
   m_ObjectHideFlags: 0
@@ -12046,7 +9966,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1255099622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -163, z: 0}
+  m_LocalPosition: {x: 0, y: -105.00001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 312105044}
@@ -12056,7 +9976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -163}
+  m_AnchoredPosition: {x: -0.00000047684, y: -105.00001}
   m_SizeDelta: {x: 171.2, y: 22.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255099624
@@ -12308,10 +10228,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1316615414}
   - component: {fileID: 1316615418}
-  - component: {fileID: 1316615417}
   - component: {fileID: 1316615416}
   - component: {fileID: 1316615415}
-  - component: {fileID: 1316615419}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -12383,19 +10301,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1316615417
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65238069703939244, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1316615413}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1316615418
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12404,27 +10309,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1316615413}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1316615419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1316615413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1325588970
 GameObject:
   m_ObjectHideFlags: 0
@@ -12465,10 +10349,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1354290379}
   - component: {fileID: 1354290383}
-  - component: {fileID: 1354290382}
   - component: {fileID: 1354290381}
   - component: {fileID: 1354290380}
-  - component: {fileID: 1354290384}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -12541,19 +10423,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1354290382
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65792037829328144, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1354290378}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1354290383
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12562,27 +10431,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1354290378}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1354290384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1354290378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1388723971
 GameObject:
   m_ObjectHideFlags: 0
@@ -12600,7 +10448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1388723972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12673,10 +10521,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1421588340}
   - component: {fileID: 1421588344}
-  - component: {fileID: 1421588343}
   - component: {fileID: 1421588342}
   - component: {fileID: 1421588341}
-  - component: {fileID: 1421588345}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -12748,19 +10594,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1421588343
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65936369695462966, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421588339}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1421588344
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12769,27 +10602,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1421588339}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1421588345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1421588339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1441289868
 GameObject:
   m_ObjectHideFlags: 0
@@ -12800,10 +10612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1441289869}
   - component: {fileID: 1441289873}
-  - component: {fileID: 1441289872}
   - component: {fileID: 1441289871}
   - component: {fileID: 1441289870}
-  - component: {fileID: 1441289874}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -12875,19 +10685,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1441289872
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65531890071552084, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1441289868}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1441289873
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12896,27 +10693,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1441289868}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1441289874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1441289868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1449690492
 GameObject:
   m_ObjectHideFlags: 0
@@ -12929,7 +10705,6 @@ GameObject:
   - component: {fileID: 1449690497}
   - component: {fileID: 1449690494}
   - component: {fileID: 1449690495}
-  - component: {fileID: 1449690496}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -13001,27 +10776,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1449690496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1449690492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1449690497
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13044,7 +10798,6 @@ GameObject:
   - component: {fileID: 1455199762}
   - component: {fileID: 1455199761}
   - component: {fileID: 1455199760}
-  - component: {fileID: 1455199765}
   m_Layer: 0
   m_Name: WallCol3
   m_TagString: WallCatchable
@@ -13156,27 +10909,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1455199758}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1455199765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1455199758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1461143225
 GameObject:
   m_ObjectHideFlags: 0
@@ -13415,7 +11147,6 @@ GameObject:
   - component: {fileID: 1483411450}
   - component: {fileID: 1483411449}
   - component: {fileID: 1483411448}
-  - component: {fileID: 1483411452}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -13509,27 +11240,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1483411446}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1483411452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1483411446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1487340896
 GameObject:
   m_ObjectHideFlags: 0
@@ -13542,7 +11252,6 @@ GameObject:
   - component: {fileID: 1487340900}
   - component: {fileID: 1487340899}
   - component: {fileID: 1487340898}
-  - component: {fileID: 1487340901}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -13622,27 +11331,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1487340896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1487340901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1487340896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1494131370
 GameObject:
   m_ObjectHideFlags: 0
@@ -13761,10 +11449,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1497791459}
   - component: {fileID: 1497791463}
-  - component: {fileID: 1497791462}
   - component: {fileID: 1497791461}
   - component: {fileID: 1497791460}
-  - component: {fileID: 1497791464}
   m_Layer: 0
   m_Name: WallCol7
   m_TagString: WallCatchable
@@ -13836,19 +11522,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1497791462
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65834972541975248, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1497791458}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1497791463
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13857,27 +11530,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497791458}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1497791464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1497791458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1505536279
 GameObject:
   m_ObjectHideFlags: 0
@@ -14014,10 +11666,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1509461214}
   - component: {fileID: 1509461218}
-  - component: {fileID: 1509461217}
   - component: {fileID: 1509461216}
   - component: {fileID: 1509461215}
-  - component: {fileID: 1509461219}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -14089,19 +11739,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1509461217
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65394604126974124, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509461213}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1509461218
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14110,27 +11747,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1509461213}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1509461219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1509461213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1557200988
 GameObject:
   m_ObjectHideFlags: 0
@@ -14141,10 +11757,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1557200989}
   - component: {fileID: 1557200993}
-  - component: {fileID: 1557200992}
   - component: {fileID: 1557200991}
   - component: {fileID: 1557200990}
-  - component: {fileID: 1557200994}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -14216,19 +11830,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1557200992
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65442766165843620, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1557200988}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1557200993
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14237,27 +11838,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1557200988}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1557200994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1557200988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1562866449
 Prefab:
   m_ObjectHideFlags: 0
@@ -14439,7 +12019,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564781274}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 219, z: 0}
+  m_LocalPosition: {x: 0, y: 225, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 986950869}
@@ -14449,7 +12029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000016689, y: 219}
+  m_AnchoredPosition: {x: -0.0000016689, y: 225}
   m_SizeDelta: {x: 78.29001, y: 49.590027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1577166828
@@ -14462,11 +12042,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1577166834}
   - component: {fileID: 1577166833}
-  - component: {fileID: 1577166832}
   - component: {fileID: 1577166831}
   - component: {fileID: 1577166829}
   - component: {fileID: 1577166830}
-  - component: {fileID: 1577166835}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -14543,19 +12121,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1577166832
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65527298248897424, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1577166828}
-  m_Material: {fileID: 13400000, guid: 633335b2744f15148b86a92e220318a2, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1577166833
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14578,27 +12143,6 @@ Transform:
   m_Father: {fileID: 893532101}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577166835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1577166828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1584763102
 GameObject:
   m_ObjectHideFlags: 0
@@ -14609,10 +12153,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1584763103}
   - component: {fileID: 1584763107}
-  - component: {fileID: 1584763106}
   - component: {fileID: 1584763105}
   - component: {fileID: 1584763104}
-  - component: {fileID: 1584763108}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -14684,19 +12226,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1584763106
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65258504850122246, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584763102}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1584763107
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14705,27 +12234,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1584763102}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1584763108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1584763102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1588429918
 GameObject:
   m_ObjectHideFlags: 0
@@ -14800,7 +12308,6 @@ GameObject:
   - component: {fileID: 1590064093}
   - component: {fileID: 1590064092}
   - component: {fileID: 1590064091}
-  - component: {fileID: 1590064094}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -14879,27 +12386,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1590064089}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1590064094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1590064089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1607186909
 GameObject:
   m_ObjectHideFlags: 0
@@ -14987,7 +12473,6 @@ GameObject:
   - component: {fileID: 1615466616}
   - component: {fileID: 1615466614}
   - component: {fileID: 1615466615}
-  - component: {fileID: 1615466617}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -15079,27 +12564,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1615466617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1615466612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1615466618
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15498,6 +12962,16 @@ Prefab:
       value: 
       objectReference: {fileID: 54317658354110286, guid: 469000a7db2438d47aa2f8d09a78553c,
         type: 2}
+    - target: {fileID: 114535199165670482, guid: 5a980e53370753e478d608556ba16d08,
+        type: 2}
+      propertyPath: ShowAdScript
+      value: 
+      objectReference: {fileID: 310039945}
+    - target: {fileID: 114535199165670482, guid: 5a980e53370753e478d608556ba16d08,
+        type: 2}
+      propertyPath: fRotation
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a980e53370753e478d608556ba16d08, type: 2}
   m_IsPrefabParent: 0
@@ -15593,7 +13067,6 @@ GameObject:
   - component: {fileID: 1646568887}
   - component: {fileID: 1646568886}
   - component: {fileID: 1646568885}
-  - component: {fileID: 1646568889}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -15687,27 +13160,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1646568883}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1646568889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646568883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1650941725
 GameObject:
   m_ObjectHideFlags: 0
@@ -15790,7 +13242,6 @@ MonoBehaviour:
     type: 2}
   ScoringScript: {fileID: 310039940}
   FullWall: {fileID: 1187268757}
-  fRotationSpeed: 0.25
   fRotationAngle: 0
   isWallRotating: 0
 --- !u!1 &1658778049
@@ -15883,7 +13334,6 @@ GameObject:
   - component: {fileID: 1673146400}
   - component: {fileID: 1673146398}
   - component: {fileID: 1673146397}
-  - component: {fileID: 1673146399}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -15955,27 +13405,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1673146399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1673146395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1673146400
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16103,10 +13532,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1718662165}
   - component: {fileID: 1718662169}
-  - component: {fileID: 1718662168}
   - component: {fileID: 1718662167}
   - component: {fileID: 1718662166}
-  - component: {fileID: 1718662170}
   m_Layer: 0
   m_Name: WallCol1 (1)
   m_TagString: WallCatchable
@@ -16178,19 +13605,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1718662168
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65951261371453974, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718662164}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1718662169
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16199,27 +13613,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1718662164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1718662170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1718662164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1735017323
 GameObject:
   m_ObjectHideFlags: 0
@@ -16267,6 +13660,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.size
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4446672001862772, guid: b2681d0f5e995be49ba0b4a1472cd89b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 5.38
@@ -16323,48 +13721,208 @@ Prefab:
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[0]
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[1]
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[2]
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[3]
-      value: 18
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[4]
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[5]
-      value: 22
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[6]
-      value: 24
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[7]
-      value: 26
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
         type: 2}
       propertyPath: CanvasGameObject
       value: 
       objectReference: {fileID: 310039939}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[3]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[4]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[5]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[6]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[7]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[8]
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[9]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[11]
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[12]
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[13]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[14]
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[8]
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[9]
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[10]
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[11]
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[12]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[13]
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[14]
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToSpawnRedCubes.Array.data[15]
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[15]
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[16]
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[17]
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[18]
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[19]
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[20]
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[21]
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[22]
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[23]
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114020703376917282, guid: b2681d0f5e995be49ba0b4a1472cd89b,
+        type: 2}
+      propertyPath: ArrayOfWhenToRemoveWallPieces.Array.data[24]
+      value: 43
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2681d0f5e995be49ba0b4a1472cd89b, type: 2}
   m_IsPrefabParent: 0
@@ -16378,10 +13936,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1739358645}
   - component: {fileID: 1739358649}
-  - component: {fileID: 1739358648}
   - component: {fileID: 1739358647}
   - component: {fileID: 1739358646}
-  - component: {fileID: 1739358650}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -16453,19 +14009,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1739358648
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65322495232896672, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1739358644}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1739358649
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16474,27 +14017,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1739358644}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1739358650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1739358644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1756471114
 GameObject:
   m_ObjectHideFlags: 0
@@ -16508,7 +14030,6 @@ GameObject:
   - component: {fileID: 1756471118}
   - component: {fileID: 1756471117}
   - component: {fileID: 1756471116}
-  - component: {fileID: 1756471120}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -16601,27 +14122,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756471114}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1756471120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1756471114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1762016770
 GameObject:
   m_ObjectHideFlags: 0
@@ -17012,7 +14512,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: XX
+  m_Text: 0
 --- !u!1 &1814798840
 GameObject:
   m_ObjectHideFlags: 0
@@ -17056,7 +14556,6 @@ GameObject:
   - component: {fileID: 1814922360}
   - component: {fileID: 1814922359}
   - component: {fileID: 1814922358}
-  - component: {fileID: 1814922362}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -17149,27 +14648,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1814922356}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1814922362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1814922356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1816554752
 GameObject:
   m_ObjectHideFlags: 0
@@ -17180,10 +14658,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1816554753}
   - component: {fileID: 1816554757}
-  - component: {fileID: 1816554756}
   - component: {fileID: 1816554755}
   - component: {fileID: 1816554754}
-  - component: {fileID: 1816554758}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -17255,19 +14731,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1816554756
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65759404240790260, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1816554752}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1816554757
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17276,27 +14739,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1816554752}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1816554758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1816554752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1832208911
 GameObject:
   m_ObjectHideFlags: 0
@@ -17309,7 +14751,6 @@ GameObject:
   - component: {fileID: 1832208916}
   - component: {fileID: 1832208914}
   - component: {fileID: 1832208913}
-  - component: {fileID: 1832208915}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -17381,27 +14822,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1832208915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1832208911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1832208916
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17420,10 +14840,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1837623649}
   - component: {fileID: 1837623653}
-  - component: {fileID: 1837623652}
   - component: {fileID: 1837623651}
   - component: {fileID: 1837623650}
-  - component: {fileID: 1837623654}
   m_Layer: 0
   m_Name: WallCol1
   m_TagString: WallCatchable
@@ -17495,19 +14913,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1837623652
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65672853265596656, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1837623648}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1837623653
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17516,27 +14921,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1837623648}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1837623654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1837623648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1840261627
 GameObject:
   m_ObjectHideFlags: 0
@@ -17547,10 +14931,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1840261628}
   - component: {fileID: 1840261632}
-  - component: {fileID: 1840261631}
   - component: {fileID: 1840261630}
   - component: {fileID: 1840261629}
-  - component: {fileID: 1840261633}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -17622,19 +15004,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1840261631
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65223918859002510, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1840261627}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1840261632
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17643,27 +15012,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840261627}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1840261633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1840261627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1876614831
 GameObject:
   m_ObjectHideFlags: 0
@@ -17743,10 +15091,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1878623928}
   - component: {fileID: 1878623932}
-  - component: {fileID: 1878623931}
   - component: {fileID: 1878623930}
   - component: {fileID: 1878623929}
-  - component: {fileID: 1878623933}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -17818,19 +15164,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1878623931
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65848820117463460, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878623927}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1878623932
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17839,27 +15172,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1878623927}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1878623933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878623927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1878627678
 GameObject:
   m_ObjectHideFlags: 0
@@ -17870,10 +15182,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1878627679}
   - component: {fileID: 1878627683}
-  - component: {fileID: 1878627682}
   - component: {fileID: 1878627681}
   - component: {fileID: 1878627680}
-  - component: {fileID: 1878627684}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -17945,19 +15255,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1878627682
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65053458653399472, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878627678}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1878627683
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17966,27 +15263,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1878627678}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1878627684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1878627678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1879313881
 GameObject:
   m_ObjectHideFlags: 0
@@ -17997,10 +15273,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1879313882}
   - component: {fileID: 1879313886}
-  - component: {fileID: 1879313885}
   - component: {fileID: 1879313884}
   - component: {fileID: 1879313883}
-  - component: {fileID: 1879313887}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -18073,19 +15347,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1879313885
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65633985870030682, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1879313881}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1879313886
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18094,27 +15355,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1879313881}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1879313887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1879313881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1895309972
 GameObject:
   m_ObjectHideFlags: 0
@@ -18125,10 +15365,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1895309973}
   - component: {fileID: 1895309977}
-  - component: {fileID: 1895309976}
   - component: {fileID: 1895309975}
   - component: {fileID: 1895309974}
-  - component: {fileID: 1895309978}
   m_Layer: 0
   m_Name: WallCol8
   m_TagString: WallCatchable
@@ -18200,19 +15438,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1895309976
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65705564508500042, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1895309972}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1895309977
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18221,27 +15446,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1895309972}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1895309978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1895309972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1895423133 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114535199165670482, guid: 5a980e53370753e478d608556ba16d08,
@@ -18271,7 +15475,6 @@ GameObject:
   - component: {fileID: 1911294775}
   - component: {fileID: 1911294773}
   - component: {fileID: 1911294772}
-  - component: {fileID: 1911294774}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -18342,27 +15545,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1911294774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1911294770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1911294775
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18486,7 +15668,6 @@ GameObject:
   - component: {fileID: 1922663790}
   - component: {fileID: 1922663788}
   - component: {fileID: 1922663787}
-  - component: {fileID: 1922663789}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -18557,27 +15738,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1922663789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1922663785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &1922663790
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18599,7 +15759,6 @@ GameObject:
   - component: {fileID: 1924113655}
   - component: {fileID: 1924113654}
   - component: {fileID: 1924113653}
-  - component: {fileID: 1924113657}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -18692,27 +15851,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1924113651}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1924113657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1924113651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1942546662
 GameObject:
   m_ObjectHideFlags: 0
@@ -18763,10 +15901,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1954214731}
   - component: {fileID: 1954214735}
-  - component: {fileID: 1954214734}
   - component: {fileID: 1954214733}
   - component: {fileID: 1954214732}
-  - component: {fileID: 1954214736}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -18838,19 +15974,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1954214734
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65748489961271758, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954214730}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1954214735
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18859,27 +15982,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1954214730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1954214736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954214730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1964980974
 GameObject:
   m_ObjectHideFlags: 0
@@ -18890,10 +15992,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1964980975}
   - component: {fileID: 1964980979}
-  - component: {fileID: 1964980978}
   - component: {fileID: 1964980977}
   - component: {fileID: 1964980976}
-  - component: {fileID: 1964980980}
   m_Layer: 0
   m_Name: WallCol7 (1)
   m_TagString: WallCatchable
@@ -18966,19 +16066,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1964980978
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65385779375310766, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964980974}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1964980979
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18987,27 +16074,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1964980974}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1964980980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1964980974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1980745240
 GameObject:
   m_ObjectHideFlags: 0
@@ -19058,11 +16124,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1994323542}
   - component: {fileID: 1994323547}
-  - component: {fileID: 1994323546}
   - component: {fileID: 1994323545}
   - component: {fileID: 1994323544}
   - component: {fileID: 1994323543}
-  - component: {fileID: 1994323548}
   m_Layer: 0
   m_Name: WallCol6
   m_TagString: WallCatchable
@@ -19154,19 +16218,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1994323546
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65515856862928052, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1994323541}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1994323547
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19175,27 +16226,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1994323541}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1994323548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1994323541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2025750369
 GameObject:
   m_ObjectHideFlags: 0
@@ -19206,10 +16236,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2025750370}
   - component: {fileID: 2025750374}
-  - component: {fileID: 2025750373}
   - component: {fileID: 2025750372}
   - component: {fileID: 2025750371}
-  - component: {fileID: 2025750375}
   m_Layer: 0
   m_Name: WallCol2
   m_TagString: WallCatchable
@@ -19281,19 +16309,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2025750373
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65531312066337908, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2025750369}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2025750374
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19302,27 +16317,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2025750369}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2025750375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2025750369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2038109546
 GameObject:
   m_ObjectHideFlags: 0
@@ -19544,8 +16538,6 @@ GameObject:
   - component: {fileID: 2062901469}
   - component: {fileID: 2062901468}
   - component: {fileID: 2062901467}
-  - component: {fileID: 2062901471}
-  - component: {fileID: 2062901472}
   m_Layer: 0
   m_Name: WallCol5
   m_TagString: WallCatchable
@@ -19638,41 +16630,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062901465}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &2062901471
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2062901465}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2062901472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2062901465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2089904384
 GameObject:
   m_ObjectHideFlags: 0
@@ -19685,7 +16642,6 @@ GameObject:
   - component: {fileID: 2089904389}
   - component: {fileID: 2089904387}
   - component: {fileID: 2089904386}
-  - component: {fileID: 2089904388}
   m_Layer: 0
   m_Name: WallCol4
   m_TagString: WallCatchable
@@ -19757,27 +16713,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2089904388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2089904384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!33 &2089904389
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19858,10 +16793,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2109358511}
   - component: {fileID: 2109358515}
-  - component: {fileID: 2109358514}
   - component: {fileID: 2109358513}
   - component: {fileID: 2109358512}
-  - component: {fileID: 2109358516}
   m_Layer: 0
   m_Name: WallCol8 (1)
   m_TagString: WallCatchable
@@ -19933,19 +16866,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2109358514
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65063430061159272, guid: be8a110c05bcd5e428de12ffc9e3be18,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2109358510}
-  m_Material: {fileID: 13400000, guid: dc7d1769e12c9904aa4f4a42139a4156, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &2109358515
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19954,27 +16874,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109358510}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2109358516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2109358510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304824ba72a95154e8b1233a07453922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CatchBallScript: {fileID: 1895423133}
-  ScoringScript: {fileID: 310039940}
-  LocationToDisplayWallHitMult: {x: 0, y: 0, z: 0}
-  BallHitWallMultGameObject: {fileID: 1088277513}
-  fFadeSpeed: 1
-  fFadeDuration: 1
-  WallHitMultGameObject: {fileID: 2050741739}
-  WallHitMultColor: {r: 0, g: 0, b: 0, a: 0}
-  WallHitMultBGGameObject: {fileID: 1088277515}
-  WallHitMultBGColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &2111748765
 Prefab:
   m_ObjectHideFlags: 0

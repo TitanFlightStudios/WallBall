@@ -67,8 +67,13 @@ public class BallHitWallScript : MonoBehaviour
             //Display the UI Game Object showing + 0.25 X Game Object
             BallHitWallMultGameObject.transform.position = LocationToDisplayWallHitMult;
 
+            //Add multiplier to the fcurrentscoremult
+            CatchBallScript.fSumOfCatchesAndWallHitMult += 0.25f;
+
+            Debug.Log("Adding 0.25 off back wall");
         }
     }
+
 
     public IEnumerator FadeWallHitMult()
     {

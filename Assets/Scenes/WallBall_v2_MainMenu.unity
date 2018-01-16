@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 369752320}
   - component: {fileID: 369752319}
   m_Layer: 5
-  m_Name: Show Ad Button
+  m_Name: Show Reward Ad Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4079,7 +4079,7 @@ GameObject:
   - component: {fileID: 1886543697}
   - component: {fileID: 1886543696}
   m_Layer: 5
-  m_Name: Show Ad
+  m_Name: Show Reward Ad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4135,7 +4135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Show Ad
+  m_Text: Earn Coins
 --- !u!222 &1886543697
 CanvasRenderer:
   m_ObjectHideFlags: 0

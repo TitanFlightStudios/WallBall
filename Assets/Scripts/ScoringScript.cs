@@ -23,21 +23,6 @@ public class ScoringScript : MonoBehaviour
     [HideInInspector]
     public float fFinalScore;
 
-
-
-
-    //[HideInInspector]
-    //Easy speed bool
-    //public bool isEasySpeed = true;
-    //[HideInInspector]
-    //Hard speed bool
-    //public bool isHardSpeed;
-
-    //Values for score per catch depending on speed difficulty
-    //public float easySpeedMult;
-    //public float hardSpeedMult;
-
-
     //[HideInInspector]
     //Variable to hold the amount that the score is multiplied at the end of the round
    //public float fballSpeedMult;
@@ -102,53 +87,40 @@ public class ScoringScript : MonoBehaviour
     {
         //Assign the Score number text being displayed so we can change it when player catches ball (in the top left corner)
         ScoreNumberAmountText = ScoreNumberAmountComponent.GetComponent<Text>();
+        //Assign the plus symbol to use later
         PlusButtonForFadeNumberText = PlusButtonForFadeNumberComponent.GetComponent<Text>();
+        //Assign the walls hit to be used later
         WallsHitText = WallsHitTextComponent.GetComponent<Text>();
-        //Assign the color to the fade text so we can fade it out later
+
+        //Assign the color to the fade text and plus symbol so we can fade it out later
         Color ScoreNumberAmountTxtColor = ScoreNumberAmountText.color;
         Color PlusButtonForFadeNumberColor = PlusButtonForFadeNumberText.color;
+
         //Set the alpha to 0 by default so it starts invisible
         ScoreNumberAmountTxtColor.a = 0;
         PlusButtonForFadeNumberColor.a = 0;
 
+        //Set their color to what's assigned above
         ScoreNumberAmountText.color = ScoreNumberAmountTxtColor;
         PlusButtonForFadeNumberText.color = PlusButtonForFadeNumberColor;
 
+        //Disable the End of Round UI and the Score Number
         ScoreNumberPanelObject.SetActive(false);
         MissedBallPanel.SetActive(false);
 
-        //isEasySpeed = true;
-        //if (isEasySpeed == true)
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = easySpeedMult;
-        //}
-        //else if (isHardSpeed == true)
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = hardSpeedMult;
-        //}
-        //else
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = easySpeedMult;
-        //}
+        //Set the multiplier for the Catches to a default of 1
+        fCatchesMult = 0.0f;
 
-        //Update the Ball Speed Multiplier Text
-        //BallSpeedMultiplierText.text = fballSpeedMult.ToString();
-
-        fCatchesMult = 1.0f;
+        //Set the number of catches to 0
         CatchBallScript.CatchesNum = 0.0f;
 
-        CatchBallScript.fSumOfCatchesAndWallHitMult = 1 + fCatchesMult;
+        //Make the sum of catches and wall hit multiplier to what the catches is above
+        CatchBallScript.fSumOfCatchesAndWallHitMult = fCatchesMult;
 
-        //Debug.Log("fSumofCatches: " + CatchBallScript.fSumOfCatchesAndWallHitMult);
+        //Set the number of catches multiplier set to the Final Score after multiplier text object in case they lose immediately
         NumCatchesMultText.text = fFinalScoreAfterMultNum.ToString();//CatchBallScript.fSumOfCatchesAndWallHitMult.ToString();
 
-        WallsHitNum = 1.0f;
+        WallsHitNum = 0.0f;
 
 
 
@@ -161,12 +133,12 @@ public class ScoringScript : MonoBehaviour
 
 
         //Calculation for number of catches
-        fFinalScoreAfterMultNum = Mathf.RoundToInt(fCurrentScore * (WallsHitNum + fCatchesMult));
+        fFinalScoreAfterMultNum = Mathf.RoundToInt(fCurrentScore * (WallsHitNum));
 
         //if (fFinalScoreAfterMultNum < fCurrentScore)
         //fFinalScoreAfterMultNum = fCurrentScore;
 
-        fCurrentCatchesMult.text = CatchBallScript.fSumOfCatchesAndWallHitMult.ToString();
+        fCurrentCatchesMult.text = WallsHitNum.ToString();
 
         //Update the final score text
         EndOfRoundScoreText.text = fCurrentScore.ToString();
@@ -180,7 +152,7 @@ public class ScoringScript : MonoBehaviour
     public void IncreaseScoreMultiplier(float AmountToIncreaseMult)
         {
         //Increase scoring multiplier here - for hit walls
-        fCatchesMult += AmountToIncreaseMult;
+        //fCatchesMult += AmountToIncreaseMult;
         //Debug.Log("Ball Hit Wall: " + AmountToIncreaseMult);
 
         }
@@ -221,16 +193,10 @@ public class ScoringScript : MonoBehaviour
         fCurrentScore += fAmountToIncreaseScorePerCatch;
 
         //Set number of catches to the fCatchesMult variable
-        IncreaseScoreMultiplier(0.25f);
-
-        //Debug.Log("fCatchesMult: " + fCatchesMult);
-
-        //Multiplier for ball speed
-        //fFinalScoreAfterMultNum = fCurrentScore * fballSpeedMult * fCatchesMult;
-        //FinalScoreAfterMultText.text = fFinalScoreAfterMultNum.ToString();
+        //IncreaseScoreMultiplier(0.25f);
 
         //Multiplier for number of catches
-        NumCatchesMultText.text = fCatchesMult.ToString();
+        //NumCatchesMultText.text = fCatchesMult.ToString();
 
         //Fading number each time the ball is caught
         ScoreIncreaseFadeNumberText.text = fAmountToIncreaseScorePerCatch.ToString();
@@ -253,11 +219,13 @@ public class ScoringScript : MonoBehaviour
         UICurrentGameScoreText.text = "0";
         EndOfRoundScoreText.text = "0";
         FinalScoreAfterMultText.text = "0";
-        NumCatchesMultText.text = "0";
-        CatchBallScript.CatchesNum = 0;
-        fCatchesMult = 1.0f;
-        WallsHitNum = 1.0f;
+        //NumCatchesMultText.text = "0";
+        //CatchBallScript.CatchesNum = 0;
+        //fCatchesMult = 0.0f;
+        WallsHitNum = 0.0f;
         WallsHitText.text = "0";
+        fCurrentCatchesMult.text = "0";
+        CatchBallScript.fSumOfCatchesAndWallHitMult = 0;
 
         //Reset whether ball hit right wall after spawning 
         HitSideWallRightScript.didBallHitSideWallRight = false;
@@ -285,28 +253,6 @@ public class ScoringScript : MonoBehaviour
         RotateWallScript.isWallRotating = false;
         RotateWallScript.FullWall.transform.eulerAngles = new Vector3 (0,0,0);
 
-        //if (isEasySpeed == true)
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = easySpeedMult;
-        //}
-        //else if (isHardSpeed == true)
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = hardSpeedMult;
-        //}
-        //else
-        //{
-        //    //Set the Amount to increase score if ball is caught with current speed
-        //    //Set the fballSpeedMult to the appropriate setting
-        //    fballSpeedMult = easySpeedMult;
-        //}
-
-        //Update the Ball Speed Multiplier Text
-        //BallSpeedMultiplierText.text = fballSpeedMult.ToString();
-
         //Reset the block colors
         StartCoroutine(AssignBlockColorScript.AssignColorsToBlocksFunction());
 
@@ -318,7 +264,7 @@ public class ScoringScript : MonoBehaviour
 
         //Clear the redcubearray
         SpawnMovingObjectScript.AllRedCubesSpawned.Clear();
-        Debug.Log("Length Of Red Cube Array: " + SpawnMovingObjectScript.AllRedCubesSpawned.Count);
+        //Debug.Log("Length Of Red Cube Array: " + SpawnMovingObjectScript.AllRedCubesSpawned.Count);
 
 
 
