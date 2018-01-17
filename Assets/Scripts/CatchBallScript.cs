@@ -46,10 +46,16 @@ public class CatchBallScript : MonoBehaviour {
     //Point Light for main level
     public GameObject MainRoomLight;
 
+    [HideInInspector]
     public Light MainRoomLightSettings;
 
     //how wall rotates
     public float fRotation;
+
+    //Materials for the back wall
+    public Material[] WallMaterials;
+
+    public MeshRenderer WallMaterialComponent;
 
     // Use this for initialization
     void Start () {
@@ -122,6 +128,17 @@ public class CatchBallScript : MonoBehaviour {
                         RemoveWallPiece();
 
                         MainRoomLightSettings.color = Color.blue;
+
+                        //Change wall mat to blue
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[1];
+                        }
+
+
                     }
                     if (CatchesNum == 10)
                     {
@@ -129,8 +146,18 @@ public class CatchBallScript : MonoBehaviour {
                         StartCoroutine(RotateWallScript.RotateWall(fRotation));
 
                         MainRoomLightSettings.color = Color.red;
+
+                        //Change wall mat to red
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[2];
+                        }
+
                     }
-                   if (CatchesNum == SpawnMovingObjectScript.ArrayOfWhenToSpawnRedCubes[SpawnMovingObjectScript.SpawnCubeCounter])
+                    if (CatchesNum == SpawnMovingObjectScript.ArrayOfWhenToSpawnRedCubes[SpawnMovingObjectScript.SpawnCubeCounter])
                     {
                         SpawnMovingObjectScript.RandomSpawnPosition = Random.Range(0, (SpawnMovingObjectScript.ObjectSpawnPositionObjects.Count - 1));
 
@@ -138,6 +165,16 @@ public class CatchBallScript : MonoBehaviour {
                         SpawnMovingObjectScript.SpawnObject(SpawnMovingObjectScript.ObjectSpawnPosition);
 
                         MainRoomLightSettings.color = Color.yellow;
+
+                        //Change wall mat to yellow
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[3];
+                        }
+
 
                         //SpawnMovingObjectScript.ObjectSpawnPositionObjects.RemoveAt(SpawnMovingObjectScript.RandomSpawnPosition);
                         //Debug.Log("Counter: " + SpawnMovingObjectScript.SpawnCubeCounter);
@@ -159,6 +196,16 @@ public class CatchBallScript : MonoBehaviour {
                         StartCoroutine(RotateWallScript.RotateWall(-fRotation * 2));
 
                         MainRoomLightSettings.color = Color.red;
+
+                        //Change wall mat to red
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[2];
+                        }
+
                     }
 
                     if (CatchesNum == 25)
@@ -167,6 +214,16 @@ public class CatchBallScript : MonoBehaviour {
                         StartCoroutine(RotateWallScript.RotateWall(fRotation * 2));
 
                         MainRoomLightSettings.color = Color.red;
+
+                        //Change wall mat to red
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[2];
+                        }
+
                     }
 
                     if (CatchesNum == 30)
@@ -175,6 +232,16 @@ public class CatchBallScript : MonoBehaviour {
                         StartCoroutine(RotateWallScript.RotateWall(-fRotation * 2));
 
                         MainRoomLightSettings.color = Color.red;
+
+                        //Change wall mat to red
+                        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+                        for (int i = 0; i < WallPieces.Length; i++)
+                        {
+                            WallMaterialComponent = WallPieces[i].GetComponent<MeshRenderer>();
+
+                            WallMaterialComponent.sharedMaterial = WallMaterials[2];
+                        }
+
                     }
 
 
@@ -247,7 +314,7 @@ public class CatchBallScript : MonoBehaviour {
     public void RemoveWallPiece()
     {
         //pick a random number between 0 and the list of wall pieces
-        int WallPieceToRemove = Random.Range(0, WallPieces.Length);
+        int WallPieceToRemove = Random.Range(0, 28);
 
         if (WallPieces[WallPieceToRemove] != null)
         {

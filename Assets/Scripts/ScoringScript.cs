@@ -243,6 +243,18 @@ public class ScoringScript : MonoBehaviour
         for (int i = 0; i < CatchBallScript.WallPieces.Length; i++)
             CatchBallScript.WallPieces[i].SetActive(true);
 
+        //Reset wall pieces materials
+        //Wall Materials Array: | 0 - Default B/W | 1 - Blue | 2 - Red | 3 - Yellow
+        for (int i = 0; i < CatchBallScript.WallPieces.Length; i++)
+        {
+            CatchBallScript.WallMaterialComponent = CatchBallScript.WallPieces[i].GetComponent<MeshRenderer>();
+
+            CatchBallScript.WallMaterialComponent.sharedMaterial = CatchBallScript.WallMaterials[0];
+        }
+
+        //reset color of main light to default
+        CatchBallScript.MainRoomLightSettings.color = Color.white;
+
         //Reset Red Cube spawning counter
         SpawnMovingObjectScript.SpawnCubeCounter = 0;
 
