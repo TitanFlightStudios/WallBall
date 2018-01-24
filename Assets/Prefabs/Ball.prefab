@@ -59,7 +59,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0f056b78722a24243a9b8ec200c5586b, type: 2}
+  - {fileID: 2100000, guid: 71cb21f914f010e4ab279d64857d1e4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   SpawnMovingObjectScript: {fileID: 0}
   BallRenderer: {fileID: 23997525392321732}
   materials:
-  - {fileID: 2100000, guid: 0f056b78722a24243a9b8ec200c5586b, type: 2}
+  - {fileID: 2100000, guid: 7fe1561eaef329e4c8800f1e11abd6bd, type: 2}
   - {fileID: 2100000, guid: 71cb21f914f010e4ab279d64857d1e4c, type: 2}
   - {fileID: 0}
   - {fileID: 0}

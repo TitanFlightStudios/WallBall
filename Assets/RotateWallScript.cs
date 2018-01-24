@@ -14,7 +14,7 @@ public class RotateWallScript : MonoBehaviour {
     public GameObject FullWall;
 
     //Speed that you want to rotate the wall
-    public float fRotationSpeed;
+    //public float fRotationSpeed;
 
     //Variable to set the rotation of the wall
     public float fRotationAngle;
@@ -27,7 +27,7 @@ public class RotateWallScript : MonoBehaviour {
 
     }
 
-    public IEnumerator RotateWall()
+    public IEnumerator RotateWall(float fRotationSpeed)
     {
         Debug.Log("Rotating Wall...");
         while (isWallRotating == true)
