@@ -57,6 +57,8 @@ public class CatchBallScript : MonoBehaviour {
 
     public MeshRenderer WallMaterialComponent;
 
+    public int numCounterForMissedCatchesBeforeAd;
+
     // Use this for initialization
     void Start () {
         CatchesNum = 0.0f;
@@ -260,9 +262,10 @@ public class CatchBallScript : MonoBehaviour {
                     bBallWasCaught = false;
 
                 }
-                else
+                else if (ObjectThatWasHit != "Ball")
                 {
-
+                    if (SpawnBallScript.isBallSpawned == true)
+                        numCounterForMissedCatchesBeforeAd += 1;
 
                     //number of missed catches
                     ShowAdScript.numMissedCatches += 1;
@@ -287,15 +290,16 @@ public class CatchBallScript : MonoBehaviour {
                     EndOfRoundPanel.SetActive(true);
 
                     //Deactivate spawning of another ball
-                    SpawnBallScript.isBallSpawned = true;
+                    SpawnBallScript.isBallSpawned = false;
 
                     bBallWasCaught = true;
 
                     //Destroy the ball
                     KillBallScript.DestroyObject(SpawnBallScript.SpawnedBall);
 
-                    
 
+
+                    Debug.Log("numCounterForMissedCatchesBeforeAd: " + numCounterForMissedCatchesBeforeAd);
 
                     //Reset Red Cube spawning counter
                     SpawnMovingObjectScript.SpawnCubeCounter = 0;

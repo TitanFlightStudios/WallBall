@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ChartboostSDK;
 
 public class ScoringScript : MonoBehaviour
 {
@@ -82,6 +83,10 @@ public class ScoringScript : MonoBehaviour
 
     public GameObject WallsHitTextComponent;
 
+    public int numMissedCatchesToPlayAd;
+    public int minMissedCatchesBeforeAd;
+    public int maxMissedCatchesBeforeAd;
+
     // Use this for initialization
     void Start()
     {
@@ -118,12 +123,13 @@ public class ScoringScript : MonoBehaviour
         CatchBallScript.fSumOfCatchesAndWallHitMult = fCatchesMult;
 
         //Set the number of catches multiplier set to the Final Score after multiplier text object in case they lose immediately
-        NumCatchesMultText.text = fFinalScoreAfterMultNum.ToString();//CatchBallScript.fSumOfCatchesAndWallHitMult.ToString();
+        //NumCatchesMultText.text = fFinalScoreAfterMultNum.ToString();//CatchBallScript.fSumOfCatchesAndWallHitMult.ToString();
 
         WallsHitNum = 0.0f;
 
+        numMissedCatchesToPlayAd = Random.Range(5, 10);
 
-
+        Debug.Log("Number to play ad on: " + numMissedCatchesToPlayAd);
     }
 
     // Update is called once per frame
@@ -278,6 +284,19 @@ public class ScoringScript : MonoBehaviour
         //Clear the redcubearray
         SpawnMovingObjectScript.AllRedCubesSpawned.Clear();
         //Debug.Log("Length Of Red Cube Array: " + SpawnMovingObjectScript.AllRedCubesSpawned.Count);
+
+
+        if (CatchBallScript.numCounterForMissedCatchesBeforeAd == numMissedCatchesToPlayAd)
+        {
+            //run the ad
+            Chartboost.showInterstitial(CBLocation.Default);
+            Debug.Log("Showing Ad");
+
+            numMissedCatchesToPlayAd = Random.Range(minMissedCatchesBeforeAd, maxMissedCatchesBeforeAd);
+
+            CatchBallScript.numCounterForMissedCatchesBeforeAd = 0;
+        }
+
 
 
 

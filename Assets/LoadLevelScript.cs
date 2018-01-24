@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using ChartboostSDK;
 
 public class LoadLevelScript : MonoBehaviour {
 
@@ -17,6 +18,11 @@ public class LoadLevelScript : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+
+        //Starting of the app
+        Screen.orientation = ScreenOrientation.Portrait;
+
+        Chartboost.cacheRewardedVideo(CBLocation.MainMenu);
 
     }
 

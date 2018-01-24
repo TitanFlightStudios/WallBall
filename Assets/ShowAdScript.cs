@@ -24,34 +24,46 @@ public class ShowAdScript : MonoBehaviour {
     public void ShowAdFunction()
     {
 
-        Debug.Log("Running Ad Function");
+        //Debug.Log("Running Ad Function");
 
-        if (numMissedCatches > 10)
-        {
+        //if (numMissedCatches > 10)
+        //{
 
-            Debug.Log("Misses higher than 5");
+        //    Debug.Log("Misses higher than 5");
 
-            numActivateAd = Random.Range(0, 100);
+        //    numActivateAd = Random.Range(0, 100);
 
-            if (numActivateAd < 30 + (2 * numMissedCatches))
-            {
-                // Show interstitial at location HomeScreen. 
-                // See Chartboost.cs for available location options.
-                //Chartboost.showRewardedVideo(CBLocation.MainMenu);
-                Chartboost.showInterstitial(CBLocation.Default);
-                Debug.Log("Show Ad");
-            }
-        }
+        //    if (numActivateAd < 30 + (2 * numMissedCatches))
+        //    {
+        //        // Show interstitial at location HomeScreen. 
+        //        // See Chartboost.cs for available location options.
+        //        //Chartboost.showRewardedVideo(CBLocation.MainMenu);
+        //        Chartboost.showInterstitial(CBLocation.Default);
+        //        Debug.Log("Show Ad");
+        //    }
+        //}
 
     }
 
     public void ShowRewardVideo()
     {
-        Chartboost.showRewardedVideo(CBLocation.MainMenu);
+        Debug.Log("Does not have cached video");
+        //if (Chartboost.has ("Default") == true)
+        //{
+        //    Debug.Log("Showing Reward Video");
+        //    Chartboost.showRewardedVideo(CBLocation.MainMenu);
+        //}
     }
 
+    public void didCompleteRewardedVideo(CBLocation location, int reward)
+    {
+
+    }
     // Update is called once per frame
     void Update () {
-		
-	}
+
+
+
+
+    }
 }
